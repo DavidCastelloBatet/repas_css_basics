@@ -13,33 +13,38 @@ h1 {
 
 }
 
+.container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: grey;
+}
 .middle-container {
   background-color: red;
-  display: inline-block;
   height: 200px;
-  left: 400px;
-  position: relative;
   width: 200px;
-  
+
+  position: absolute;
+  left: 400px;
+  top: 0;
 }
 
 .bottom-container {
   background-color: blue;
-  display: inline-block;
   height: 200px;
-  right: 200px;
   width: 200px;
-  position:relative;
-  
+
+  position: absolute;
+  left: 200px;
+  top: 0px;
 }
 
 .last-container {
   background-color: yellow;
-  display: inline-block;
   height: 200px;
-  right: 200px;
   width: 200px;
-  position: relative;
-  
+
+  position: absolute;
+  top: 0;
 }
 
